@@ -1,0 +1,25 @@
+# Ignorar Node modules y artefactos de build del frontend
+node_modules/
+dist/
+.vite/
+
+# Ignorar carpetas temporales y caché de Python
+backend-gcp-vm/__pycache__/
+backend-gcp-vm/.pytest_cache/
+backend-gcp-vm/.venv/
+backend-gcp-vm/venv/
+backend-gcp-vm/*.pyc
+backend-gcp-vm/*.pyo
+backend-gcp-vm/*.dist-info
+backend-gcp-vm/*.egg-info
+
+# Ignorar archivos específicos de OS
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de variables de entorno
+.env
+.env.local
+
+# Ignorar Docker Compose si lo usas
+docker-compose.yml

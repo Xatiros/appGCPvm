@@ -1,0 +1,28 @@
+# Ignorar carpetas y archivos específicos del desarrollo local de Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+*.pyo
+*.dist-info
+*.egg-info
+
+# Ignorar archivos de Git
+.git/
+.gitignore
+
+# Ignorar archivos de configuración de entorno (no deben estar en la imagen final)
+.env
+.env.local
+
+# Ignorar archivos del frontend si el contexto de construcción es más amplio
+# (aunque al especificar la subcarpeta, esto es menos crítico aquí)
+index.html
+index.tsx
+metadata.json
+package-lock.json
+package.json
+README.md
+tsconfig.json
+vite.config.ts

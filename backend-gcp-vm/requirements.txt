@@ -1,0 +1,4 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+google-cloud-compute==1.8.0 # <--- CAMBIA A ESTA VERSIÓN
+pydantic==2.8.2
